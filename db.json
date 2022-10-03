@@ -1,0 +1,160 @@
+{
+    "books" : [
+        {
+            "id":1,
+            "image":"https://images.booksense.com/images/041/896/9781432896041.jpg",
+            "title":"Book Lovers",
+            "Author":"Emily Henry",
+            "Year":"May 3, 2022",
+            "Description":"Book Lovers is a rom-com lover's dream of a book. It is razor-sharp and modern, featuring a fierce heroine who does not apologize for her ambition and heartfelt discussions of grief. Readers know that Emily Henry never fails to deliver great banter and a romance to swoon over but this may just be her best yet"
+        },
+        {
+            "id":2,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1470427482i/27362503.jpg",
+            "title":"It Ends with Us",
+            "Author":"Colleen Hoover",
+            "Year":"August 2, 2016",
+            "Description":"It Ends with Us focuses on Lily Bloom, a young college graduate who moves to Boston and opens her own floral business. She develops feelings for surgeon Ryle Kincaid, who is initially reluctant towards having a serious relationship with her."
+        },
+        {
+            "id":3,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627673942i/58341222.jpg",
+            "title":"Reminders of Him",
+            "Author":"Colleen Hoover",
+            "Year":"January 18, 2022",
+            "Description":"A troubled young mother yearns for a shot at redemption in this heartbreaking yet hopeful story from #1 New York Times bestselling author Colleen Hoover. After serving five years in prison for a tragic mistake, Kenna Rowan returns to the town where it all went wrong, hoping to reunite with her four-year-old daughter."
+        },
+        {
+            "id":4,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641629293i/60060431.jpg",
+            "title":"Things We Never Got Over",
+            "Author":"Lucy Score",
+            "Year":"January 13, 2022",
+            "Description":"In Things We Never Got Over by Lucy Score, Naomi Witt never thought she'd wear the moniker of Runaway Bride, but here we are. After a bad couple of days and an even worse welcome to the small town of Knockemout, Virginia, she's now seriously rethinking her life choices. And her loyalty to her (evil) twin sister Tina."
+        },
+        {
+            "id":5,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602190253i/52578297.jpg",
+            "title":"The Midnight Library",
+            "Author":"Matt Haig",
+            "Year":"August 13, 2020",
+            "Description":"The Midnight Library is about Nora, a thirty-something woman who is regretful about her life and feels alienated and unneeded in this world. In the depths of her wallowing, she comes across the Midnight Library. In it, each book represents a portal into another variation of what her life could have been."
+        },
+        {
+            "id":6,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1357177533i/13623848.jpg",
+            "title":"The Song of Achilles",
+            "Author":"Madeline Miller",
+            "Year":"September 20, 2011",
+            "Description":"Set during the Greek Heroic Age, it is an adaptation of Homer's Iliad as told from the perspective of Patroclus. The novel follows Patroclus' relationship with Achilles, from their initial meeting to their exploits during the Trojan War, with focus on their romantic relationship."
+        },
+        {
+            "id":7,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+            "title":"Dune",
+            "Author":"",
+            "Year":"June 1, 1965",
+            "Description":"Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for."
+        },
+        {
+            "id":8,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408303130i/375802.jpg",
+            "title":"Ender's Game",
+            "Author":"Orson Scott Card",
+            "Year":"January 15, 1985",
+            "Description":"The novel tells the story of a young boy, Ender Wiggin, who is sent to a training academy named Battle School, located in orbit above the Earth, built to train people to become soldiers that will one day battle against a vast alien race known as Buggers."
+        },
+        {
+            "id":9,
+            "image":"https://m.media-amazon.com/images/I/413PJikG5rL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+            "title":"Good Inside: A Guide to Becoming the Parent You Want to Be",
+            "Author":" Dr. Becky Kennedy",
+            "Year":"21st September 2022",
+            "Description":"The voice of reason for a generation of... mums and dads The Guardian Wildly popular parenting expert Dr Becky Kennedy shares her groundbreaking approach to raising kids in a way that feels good. "
+        },
+        {
+            "id":10,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559142847i/44778083.jpg",
+            "title":"House of Earth and Blood",
+            "Author":"Sarah J. Maas",
+            "Year":"March 3, 2020",
+            "Description":"Sarah J. Maas's bestselling Crescent City series begins with House of Earth and Blood, which follows the story of half-Fae and half-human Bryce Quinlan as she seeks revenge in a contemporary fantasy world of magic, danger, and searing romance."
+        },
+        {
+            "id":11,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1580054681i/52386214.jpg",
+            "title":"Chasing Lucky",
+            "Author":"",
+            "Year":"June 11, 2020",
+            "Description":"In this coming-of-age romance perfect for fans of Jenny Han and Sarah Dessen, scandal and romance collide when an ambitious teen returns to her hometown only to have her plans interrupted after falling for the town's “bad boy”—a.k.a. her childhood best friend. Sometimes to find the good, you have to embrace the bad."
+        },
+        {
+            "id":12,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553624975i/26032912.jpg",
+            "title":"The Queen of Nothing",
+            "Author":"Holly Black",
+            "Year":"November 19, 2019",
+            "Description":"A powerful curse forces the exiled Queen of Faerie to choose between ambition and humanity in this highly anticipated and jaw-dropping finale to The Folk of the Air trilogy from a #1 New York Times bestselling author. Power is much easier to acquire than it is to hold onto."
+        },
+        {
+            "id":13,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602282175i/53644081.jpg",
+            "title":"Wild Like Us",
+            "Author":"Krista Ritchie",
+            "Year":"November 17, 2020",
+            "Description":"Wild Like Us is an MFM Romance and Book 8 in the Like Us Series.The Like Us series is a true series, one continuous timeline, that follows a family of wealthy celebrities and the people that protect them. Haven't started the Like Us series yet? It's perfect for binge readers!"
+        },
+        {
+            "id":14,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1644500865i/60306208.jpg",
+            "title":"A Million Kisses in Your Lifetime",
+            "Author":"Monica Murphy",
+            "Year":"March 10, 2022",
+            "Description":"At Lancaster Prep, the girls love her. They all want to be her friend. Only I see Wren for who she really is.A repressed little virgin who keeps her feelings locked up so tight she is probably close to bursting. She thinks she is above us all.Even me.I should not be drawn to her. She is not my type.Until we are forced to work together in class and realize we might have more things in common than we originally thought. Soon enough I find myself completely obsessed. I will do anything for this girl to make her fall in love with me."
+        },
+        {
+            "id":15,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1637758734i/53473067.jpg",
+            "title":"The Finisher",
+            "Author":"RuNyx",
+            "Year":"",
+            "Description":"Growing up on the streets of Los Fortis, Alessandro 'Alpha' Villanova scrapped his way to the top, fighting for his very survival, losing everything in the process. A city that shunned him then is now the one he rules, albeit alone, as the king of a dark empire few know about.Far from Alpha's world, Zephyr de la Vega has a normal life, normal family, normal drama. Her biggest problem is people trying to make her lose a few pounds. When a chance encounter puts her on his path, she makes a proposition that changes the course of their lives. As a killer goes on a spree in Alpha's city, taking apart his scarred empire corpse by corpse, and The Syndicate comes into play, their partnership evolves into something deeper, more enduring, more powerful than either of them anticipated.Evil ascends. Darkness descends.A new order is born."
+        }
+    ],
+    "ReadingList":[
+        {
+            "id":1,
+            "image":"https://images.booksense.com/images/041/896/9781432896041.jpg",
+            "title":"Book Lovers",
+            "Author":"Emily Henry",
+            "Year":"May 3, 2022",
+            "Description":"Book Lovers is a rom-com lover's dream of a book. It is razor-sharp and modern, featuring a fierce heroine who does not apologize for her ambition and heartfelt discussions of grief. Readers know that Emily Henry never fails to deliver great banter and a romance to swoon over but this may just be her best yet"
+        },
+
+        {
+            "id":2,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641629293i/60060431.jpg",
+            "title":"Things We Never Got Over",
+            "Author":"Lucy Score",
+            "Year":"January 13, 2022",
+            "Description":"In Things We Never Got Over by Lucy Score, Naomi Witt never thought she'd wear the moniker of Runaway Bride, but here we are. After a bad couple of days and an even worse welcome to the small town of Knockemout, Virginia, she's now seriously rethinking her life choices. And her loyalty to her (evil) twin sister Tina."
+        },
+        {
+            "id":3,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602190253i/52578297.jpg",
+            "title":"The Midnight Library",
+            "Author":"Matt Haig",
+            "Year":"August 13, 2020",
+            "Description":"The Midnight Library is about Nora, a thirty-something woman who is regretful about her life and feels alienated and unneeded in this world. In the depths of her wallowing, she comes across the Midnight Library. In it, each book represents a portal into another variation of what her life could have been."
+        },
+        {
+            "id":4,
+            "image":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553624975i/26032912.jpg",
+            "title":"The Queen of Nothing",
+            "Author":"Holly Black",
+            "Year":"November 19, 2019",
+            "Description":"A powerful curse forces the exiled Queen of Faerie to choose between ambition and humanity in this highly anticipated and jaw-dropping finale to The Folk of the Air trilogy from a #1 New York Times bestselling author. Power is much easier to acquire than it is to hold onto."
+        }
+        
+    ]
+}
