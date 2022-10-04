@@ -15,9 +15,9 @@ function App() {
      <NavBar/>
     <Routes>
 
-        <Route exact path="/" element={<Home />}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path ='/ReadingList' element={<ReadingList/>}/>
+        <Route  path="/home" element={<Home />}/>
+        <Route  path="/about" element={<About/>}/>
+        <Route  path ='/ReadingList' element={<ReadingList/>}/>
 
     </Routes>
     </div>

@@ -22,10 +22,12 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div id="nav-bar">
-        <h1 style={{color:'red'}}>BOOK SHELF</h1>
+        <h1 id ="logo">BOOK SHELF</h1>
       <NavLink class="NavLink" to="/" >Home</NavLink>
       <NavLink class="NavLink" to="/ReadingList" >Reading List</NavLink>
       <NavLink class="NavLink" to="/about" >  About</NavLink>
+
+      <input type='text' id ="filter"placeholder="Search Book Here"/>
     </div>
   );
 }
