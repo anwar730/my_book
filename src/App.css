@@ -132,3 +132,21 @@ a.active{
   /* background-color: #f91558; */
   /* color: white; */
 }
+#sm-cont{
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-around;
+  font-size: 20px;
+  
+}
+#container {
+  background-color: #61dafb;
+  color:#f91558;
+  height: 500px;
+
+}
+#done {
+  text-align: center;
+  font-size:30px;
+  padding-top: 20px;
+}
