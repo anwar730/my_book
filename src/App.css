@@ -151,10 +151,11 @@ a.active{
   padding-top: 20px;
 }
 .about-content{
-  height :400px;
+  height :500px;
   font-size: 30px;
   text-align: center;
-  color:#f91558
+  color:#f91558;
+  line-height: 50px;
 }
 #card-btn{
   background-color: #f91558;
