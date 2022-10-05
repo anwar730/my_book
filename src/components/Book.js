@@ -13,7 +13,7 @@ function Book({image,title,desription,year,author}) {
       <h2>TITLE :  {title}</h2>
       <h3>AUTHOR: {author}</h3>
       <h4>PUBLISHED :{year}</h4>
-      <button id='card-btn'>Done Reading</button>
+      <button id='card-btn'>Read Description</button>
       </div>
     </>
 

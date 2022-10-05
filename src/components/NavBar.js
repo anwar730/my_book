@@ -26,8 +26,9 @@ function NavBar() {
       <NavLink className="NavLink" to="/" >Home</NavLink>
       <NavLink className="NavLink" to="/ReadingList" >Reading List</NavLink>
       <NavLink className="NavLink" to="/about" >  About</NavLink>
-
-      <input type='text' id ="filter"placeholder="Search Book Here"/>
+      <form className="search">
+      <input type='text' id ="filter"placeholder="Search Book Here" />
+      </form>
     </div>
   );
 }

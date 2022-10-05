@@ -10,17 +10,18 @@
     "json-server": "^0.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "server": "^1.0.37",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "json-server":"^0.15.1"
+    "json-server": "^0.15.1"
   },
   "scripts": {
     "start": " react-scripts start",
-    "server":"json-server --watch db.json -p 8002",
+    "server": "json-server --watch db.json -p 8002",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
