@@ -1,6 +1,7 @@
 // parent of navlinks i.e Home,Reading List , About
 
 import React from "react";
+import {FaSistrix} from "react-icons/fa"
 // import ReactDOM from "react-dom";
 /* Add NavLink to import */
 import { NavLink } from "react-router-dom";

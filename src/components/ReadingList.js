@@ -1,6 +1,7 @@
 
 import React, {useEffect, useState } from 'react'
 import Footer from "./Footer"
+import {FaCheck} from "react-icons/fa"
 
 
 function ReadingList() {
@@ -31,7 +32,9 @@ function ReadingList() {
             <h2>TITLE :  {readingBook.title}</h2>
             <h3>AUTHOR: {readingBook.Author}</h3>
             <h4>PUBLISHED :{readingBook.Year}</h4>
-            <button id='card-btn' style={{background:'green'}}>Done Reading</button>
+            <button id='card-btn' style={{background:'green'}}>Done Reading 
+            <FaCheck style={{paddingLeft:10}}/>
+            </button>
             </div>
             </>
             )

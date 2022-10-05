@@ -1,6 +1,6 @@
 // Put the footer here 
 import React from 'react'
-import {FaInstagram,FaFacebook} from "react-icons/fa"
+import {FaInstagram,FaFacebook,FaTwitter} from "react-icons/fa"
 
 function Footer() {
   return (
@@ -28,6 +28,7 @@ function Footer() {
         <div className='icons'>
         <h2><FaInstagram/></h2>
         <h2><FaFacebook/></h2>
+        <h2><FaTwitter/></h2>
         </div>
       </div>
       </div>

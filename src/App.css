@@ -202,3 +202,7 @@ a.active{
   font-size: 30px;
   margin-top: 60px;
 }
+.icons {
+  display: flex; 
+  gap:35px
+}
