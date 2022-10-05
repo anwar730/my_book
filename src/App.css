@@ -96,5 +96,39 @@ a.active{
 }
 #landing-image {
   width: 100%;
-  height: 600px;
+  height: 700px;
+}
+
+#subscriptions {
+        height: 700px;
+        background-image: url("./bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+#subscription-content{
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  color:#f91558;
+  padding-top: 250px;
+  font-size: 40px;
+}
+#email{
+  display: inline-flex;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f91558;
+  color: white;
+}
+#btn{
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  /* background-color: #f91558; */
+  /* color: white; */
 }
