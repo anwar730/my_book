@@ -15,10 +15,15 @@ function BookList() {
 const bookList = books.map ((book)=>{
   return (
     <>
-<Book key={book.id} image={book.image} title={book.title} desription={book.Desription} year={book.Year} author={book.Author} /></> )})
+    
+     <Book key={book.id} image={book.image} title={book.title} desription={book.Desription} year={book.Year} author={book.Author} />
+    </> 
+    )
+    })
     
   return (
     <>
+    <h3 id ='discover'>DISCOVER YOUR NEXT BOOK</h3>
     <div className='parent'>
       
         {bookList}
