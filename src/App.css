@@ -150,3 +150,9 @@ a.active{
   font-size:30px;
   padding-top: 20px;
 }
+.about-content{
+  height :300px;
+  font-size: 30px;
+  text-align: center;
+  color:#f91558
+}
