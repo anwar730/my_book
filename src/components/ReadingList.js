@@ -9,7 +9,22 @@ function ReadingList() {
   const [year,setYear]=useState('')
 
   const [readingList,setReadingList]=useState([])
+  useEffect (()=>{
+    fetch ('http://localhost:8002/ReadingList')
+    .then ((res)=>res.json())
+    .then ((data)=>setReadingList (data))
 
+  },[])
+
+  const list = readingList.map((readingBook)=>{
+        return (
+          <div className='card'>
+            <img src={readingBook.image} alt="Book Image"/>
+            <h2>TITLE :  {readingBook.title}</h2>
+            <h3>AUTHOR: {readingBook.Author}</h3>
+            <h4>PUBLISHED :{readingBook.Year}</h4>
+            <button id='card-btn'>Done Reading</button>
+            </div>)})
 
 
   return (
@@ -30,6 +45,15 @@ function ReadingList() {
       </div>
 
       <h2 id ="reading-header">My Reading List</h2>
+      <div className='parent'>
+      {list}
+      </div>
+      
+
+      
+          
+
+       
     </div>
   )
 }
