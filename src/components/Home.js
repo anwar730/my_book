@@ -1,5 +1,6 @@
 // parent of booklist
 import BookList from "./BookList"
+import Book from "./Book"
 
 function Home() {
 
@@ -7,6 +8,7 @@ function Home() {
   return (
     <>
     <BookList />
+    <Book />
     </>
   )
 }
