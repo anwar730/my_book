@@ -156,3 +156,49 @@ a.active{
   text-align: center;
   color:#f91558
 }
+#card-btn{
+  background-color: #f91558;
+  color: white;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+/* .form-card{
+    margin: 100px 30px;
+    padding: 50px 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+} */
+
+#form {
+  margin: 100px 80px;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+#form input{
+  padding: 15px 150px; 
+  margin-top: 30px;
+  margin-left: 550px;
+  
+
+  
+}
+#form-btn{
+  background-color: #f91558;
+  color: white;
+  
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 80px 750px;
+
+}
+#reading-header{
+  color: #f91558;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+}

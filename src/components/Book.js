@@ -10,10 +10,10 @@ function Book({image,title,desription,year,author}) {
     <>
       <div className='card'>
       <img src={image} alt="Book Image"/>
-      <h3>{title}</h3>
-      <h5>{author}</h5>
-      <p>{year}</p>
-      <button>Read Descrition</button>
+      <h2>TITLE :  {title}</h2>
+      <h3>AUTHOR: {author}</h3>
+      <h4>PUBLISHED :{year}</h4>
+      <button id='card-btn'>Read Descrition</button>
       </div>
     </>
 
