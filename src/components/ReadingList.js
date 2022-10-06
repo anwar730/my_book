@@ -1,29 +1,24 @@
 
-import React, {useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Footer from "./Footer"
 import {FaCheck} from "react-icons/fa"
+// import ReadingResults from './ReadingResults'
 
 
-function ReadingList() {
+function ReadingList({ handleDelete, readingList }) {
   const [image,setImage]=useState('')
   const [title,setTitle]=useState('')
   const [Author,setAuthor]=useState('')
   const [Year,setYear]=useState('')
 
-  const [readingList,setReadingList]=useState([])
-
-  useEffect (()=>{
-    fetch ('http://localhost:8002/ReadingList')
-    .then ((res)=>res.json())
-    .then ((data)=>setReadingList (data))
-
-  },[])
+  //     function handleDelete(kitabu) {
+  //   const updatedReadingList = readingBook.filter((read) => read.id !== kitabu.id)
+  //   setReadingList(updatedReadingList)
+  // }
   
   
 
   const list = readingList.map((readingBook)=>{ 
-            
-
         return (
           <>
           
@@ -32,7 +27,7 @@ function ReadingList() {
             <h2>TITLE :  {readingBook.title}</h2>
             <h3>AUTHOR: {readingBook.Author}</h3>
             <h4>PUBLISHED :{readingBook.Year}</h4>
-            <button id='card-btn' style={{background:'green'}}>Done Reading 
+            <button id='card-btn' style={{background:'green'}} onClick={handleDelete}>Done Reading 
             <FaCheck style={{paddingLeft:10}}/>
             </button>
             </div>
@@ -100,7 +95,7 @@ function ReadingList() {
 
       <h2 id ="reading-header">My Reading List</h2>
       <div className='parent'>
-      {list}
+        {list}
       </div>
 
       <Footer/>

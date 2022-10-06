@@ -16,7 +16,7 @@ const bookList = books.map ((book)=>{
   return (
     <>
     
-     <Book key={book.id} image={book.image} title={book.title} desription={book.Desription} year={book.Year} author={book.Author} />
+     <Book key={book.id} image={book.image} title={book.title} desription={book.Desription} year={book.Year} author={book.Author} id={book.id} />
     </> 
     )
     })

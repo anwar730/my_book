@@ -1,7 +1,8 @@
 // REnder each book here 
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-function Book({image,title,desription,year,author}) {
+function Book({image,title,desription,year,author,id}) {
   
     // console.log (year)
     
@@ -13,7 +14,7 @@ function Book({image,title,desription,year,author}) {
       <h2>TITLE :  {title}</h2>
       <h3>AUTHOR: {author}</h3>
       <h4>PUBLISHED :{year}</h4>
-      <button id='card-btn'>Read Description</button>
+      <NavLink to={`/`+ id} ><button id='card-btn'>Read Description</button></NavLink>
       </div>
     </>
 
