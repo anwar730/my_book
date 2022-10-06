@@ -13,13 +13,13 @@ function Details() {
   },[])
   return (
     <>
-    
+
     <div className='card-des'>
       <img src={filtered.image} alt="Book Image"/>
       <h2 style={{color:'red'}}>TITLE :  {filtered.title}</h2>
-      <h3>AUTHOR: {filtered.Author}</h3>
-      <h4>PUBLISHED :{filtered.Year}</h4>
-      <h4>Description</h4>
+      <h3>AUTHOR :   {filtered.Author}</h3>
+      <h4>PUBLISHED :  {filtered.Year}</h4>
+      <h4>Description :</h4>
       <p>{filtered.Description}</p>
     </div>
 
