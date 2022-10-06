@@ -19,9 +19,17 @@ function ReadingList() {
 
   },[])
   
-  
+  function handleDelete (id){
 
-  const list = readingList.map((readingBook)=>{ 
+    fetch (`http://localhost:8002/ReadingList/${id}`,{
+      method :'DELETE'
+    })
+       const filter= readingList.filter((list) => list.id !=id)
+
+    setReadingList(filter);
+  }
+
+  const list = readingList.map((readingBook)=>{  
             
 
         return (
@@ -32,7 +40,7 @@ function ReadingList() {
             <h2>TITLE :  {readingBook.title}</h2>
             <h3>AUTHOR: {readingBook.Author}</h3>
             <h4>PUBLISHED :{readingBook.Year}</h4>
-            <button id='card-btn' style={{background:'green'}}>Done Reading 
+            <button id='card-btn' style={{background:'green'}} onClick={() => handleDelete(readingBook.id)}>Done Reading 
             <FaCheck style={{paddingLeft:10}}/>
             </button>
             </div>
@@ -79,7 +87,7 @@ function ReadingList() {
     body: JSON.stringify(formData)
       })
       .then ((res)=>res.json())
-      .then ((data)=>console.log (data))
+      .then ((data)=> setReadingList([...readingList, data]))
     
   }
   return (
