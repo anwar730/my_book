@@ -7,6 +7,7 @@ function About() {
     <div>
       <div className='about-content'>
       <h3>About Us ..</h3>
+      <hr/>
       <p>Book Shelf is the world's largest site for readers <br/>
       and book recommendations.Our mission is to <br/>
       help people find and share books they love.<br/>

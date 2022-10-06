@@ -39,7 +39,8 @@
 }
 body {
   font-family: 'Space Grotesk';
-  font-size:18px
+  font-size:18px;
+ 
 }
 #nav-bar{
   display: flex;
@@ -49,12 +50,12 @@ body {
   /* margin: 0px 10px 0px 0px; */
   background-color: #2f2f31;
   
-  height : 100px
+  height : 120px
 }
 a {
   color: white;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 32px;
 }
 a.active{
   color: #f91558
@@ -83,6 +84,16 @@ a.active{
   height: 450px;
 
 }
+.logo{
+  display: flex;
+  gap:30px;
+}
+
+#book-icon{
+  color: #61dafb;
+  margin-top: 37px;
+  font-size: 55px;
+}
 .card {
   margin: 100px 30px;
   padding: 50px 80px;
@@ -109,32 +120,7 @@ a.active{
   height: 700px;
 }
 
-#subscriptions {
-        height: 700px;
-        background-image: url("./bg.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-}
-#subscription-content{
-  display: flex;
-  align-items: center;
-  
-  flex-direction: column;
-  justify-content:center;
-  text-align: center;
-  color:#f91558;
-  padding-top: 250px;
-  font-size: 40px;
-}
-#email{
-  display: inline-flex;
-  padding: 10px 80px;
-  border: none;
-  border-radius: 5px;
-  background-color: #f91558;
-  color: white;
-}
+
 #btn{
   padding: 10px 30px;
   border-radius: 5px;
@@ -170,9 +156,9 @@ a.active{
 #card-btn{
   background-color: #f91558;
   color: white;
-  padding: 7px;
+  padding: 13px;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-top: 7px;
 }
 /* .form-card{
@@ -232,4 +218,8 @@ a.active{
   width: 350px;
   height: 450px;
 
+}
+hr{
+  border-top: 1px solid #2f2f31;
+  width: 20%;
 }

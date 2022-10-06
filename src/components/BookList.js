@@ -24,6 +24,7 @@ const bookList = books.map ((book)=>{
   return (
     <>
     <h3 id ='discover'>DISCOVER YOUR NEXT BOOK</h3>
+    <hr/>
     <div className='parent'>
       
         {bookList}

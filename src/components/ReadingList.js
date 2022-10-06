@@ -86,7 +86,7 @@ function ReadingList() {
     
     <div>
       
-      <div id='form' className='car'>
+      <div id='form' className='form-card'>
         
         <form onSubmit={handleSubmit}>
           
@@ -99,6 +99,7 @@ function ReadingList() {
       </div>
 
       <h1 id ="reading-header">MY READING LIST</h1>
+      <hr style={{width:270}}/>
       <div className='parent'>
       {list}
       </div>
