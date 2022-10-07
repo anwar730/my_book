@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins&family=Space+Grotesk&family=Tangerine:wght@700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -223,3 +225,22 @@ hr{
   border-top: 1px solid #2f2f31;
   width: 20%;
 }
+.image-container{
+    height: 900px;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+  
+}
+.image-header {
+  color: #f91558;
+  font-size: 160px;
+  text-align: center;
+  padding-top: 130px;
+  font-family: 'Tangerine', serif;
+}
+
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import Subscription from './Subscription'
+
 import Footer from './Footer'
 
 function About() {
