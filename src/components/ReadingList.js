@@ -15,9 +15,10 @@ function ReadingList() {
   useEffect (()=>{
     fetch ('https://anwar-books-api-backend.herokuapp.com/ReadingList')
     .then ((res)=>res.json())
-    .then ((data)=>setReadingList (data.ReadingList))
+    .then ((data)=>setReadingList(data.ReadingList))
 
   },[])
+  // console.log (readingList)
   
   function handleDelete (id){
 
@@ -34,7 +35,7 @@ function ReadingList() {
 
         return (
           <>
-          
+         
           <div className='card'>
             <img src={readingBook.image} alt="Book Image"/>
             <h2>TITLE :  {readingBook.title}</h2>
@@ -87,7 +88,7 @@ function ReadingList() {
     body: JSON.stringify(formData)
       })
       .then ((res)=>res.json())
-      .then ((data)=> setReadingList([...readingList, data]))
+      .then ((data)=> setReadingList([...readingList, data.ReadingList]))
       setAuthor("")
       setImage("")
       setTitle("")
