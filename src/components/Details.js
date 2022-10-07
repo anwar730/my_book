@@ -6,7 +6,7 @@ function Details() {
   let {id}=useParams();
   const [filtered,setFiltered]=useState([])
   useEffect (()=>{
-    fetch(`http://localhost:8002/books/${id}`)
+    fetch(`https://anwar-books-api-backend.herokuapp.com/books/${id}`)
     .then ((res)=>res.json())
     .then ((book)=>setFiltered(book))
     console.log (filtered.Author)

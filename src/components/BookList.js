@@ -7,19 +7,24 @@ function BookList() {
   const [books,setBooks]=useState([])
   
   useEffect (()=>{
-    fetch ('http://localhost:8002/books')
+    fetch ('https://anwar-books-api-backend.herokuapp.com/books')
     .then ((res)=>res.json())
-    .then ((data)=>setBooks(data))
+    .then ((data)=>{
+      // console.log (data)
+      setBooks(data.books)})
   },[])
+ console.log (books)
 
-const bookList = books.map ((book)=>{
+const bookList =books.map((book)=>{
+  
   return (
     <>
     
-     <Book key={book.id} image={book.image} title={book.title} desription={book.Desription} year={book.Year} author={book.Author} id={book.id} />
+    <Book key={book.id} image={book.image} title={book.title} desription={book.Desription} year={book.Year} author={book.Author} id={book.id} />
     </> 
     )
     })
+
     
   return (
     <>
@@ -28,6 +33,7 @@ const bookList = books.map ((book)=>{
     <div className='parent'>
       
         {bookList}
+        
       </div>
     
     </>

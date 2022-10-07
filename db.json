@@ -128,6 +128,20 @@
       "Author": "Jenn Bennett",
       "Year": "June 11, 2020",
       "id": 1
+    },
+    {
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627673942i/58341222.jpg",
+      "title": "Reminders of Him",
+      "Author": "Colleen Hoover",
+      "Year": "January 18, 2022",
+      "id": 2
+    },
+    {
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1602190253i/52578297.jpg",
+      "title": "The Midnight Library",
+      "Author": "Matt Haig",
+      "Year": "August 13, 2020",
+      "id": 3
     }
   ]
 }

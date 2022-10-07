@@ -13,15 +13,15 @@ function ReadingList() {
   const [readingList,setReadingList]=useState([])
 
   useEffect (()=>{
-    fetch ('http://localhost:8002/ReadingList')
+    fetch ('https://anwar-books-api-backend.herokuapp.com/ReadingList')
     .then ((res)=>res.json())
-    .then ((data)=>setReadingList (data))
+    .then ((data)=>setReadingList (data.ReadingList))
 
   },[])
   
   function handleDelete (id){
 
-    fetch (`http://localhost:8002/ReadingList/${id}`,{
+    fetch (`https://anwar-books-api-backend.herokuapp.com/ReadingList/${id}`,{
       method :'DELETE'
     })
        const filter= readingList.filter((list) => list.id !=id)
@@ -79,7 +79,7 @@ function ReadingList() {
       Author,
       Year
     }
-      fetch ('http://localhost:8002/ReadingList',{
+      fetch ('https://anwar-books-api-backend.herokuapp.com/ReadingList',{
         method : 'POST',
         headers: {
         "Content-Type": "application/json",
@@ -88,7 +88,10 @@ function ReadingList() {
       })
       .then ((res)=>res.json())
       .then ((data)=> setReadingList([...readingList, data]))
-    
+      setAuthor("")
+      setImage("")
+      setTitle("")
+      setYear("")
   }
   return (
     
