@@ -7,11 +7,12 @@ function BookList() {
   const [books,setBooks]=useState([])
   
   useEffect (()=>{
-    fetch ('https://anwar-books-api-backend.herokuapp.com/books')
+    fetch ('https://anwar-json-books.herokuapp.com/books')
     .then ((res)=>res.json())
     .then ((data)=>{
       // console.log (data)
-      setBooks(data.books)})
+      setBooks(data)
+    })
   },[])
  console.log (books)
 
